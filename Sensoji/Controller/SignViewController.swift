@@ -31,7 +31,11 @@ class SignViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        var count = 1
+        if signs.isEmpty == false {
+            count = signs[index].result.count + 1
+        }
+        return count
     }
     
     
@@ -56,7 +60,6 @@ class SignViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let valueArray = Array(signs[index].result.values)
                 cell.detailValueLabel.text = valueArray[indexPath.row-1]
             }
-            
             return cell
         }
     }
@@ -80,8 +83,6 @@ class SignViewController: UIViewController, UITableViewDelegate, UITableViewData
                         self.signType.text = signs[index].type
                         self.signPoem.text = signs[index].poem + "。"
                         self.tableView.reloadData()
-                        
-                        
                     }
                 } catch {
                     print(error)
@@ -123,6 +124,7 @@ class SignViewController: UIViewController, UITableViewDelegate, UITableViewData
         lowerPattern.transform = CGAffineTransform(translationX: 0, y: 0)
         
         updateUI()
+        tableView.setContentOffset(.zero, animated: false)
     }
     
     
