@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3DC22F2A90A405000D0E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC22E2A90A405000D0E66 /* AppDelegate.swift */; };
+		AF3DC2312A90A405000D0E66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC2302A90A405000D0E66 /* SceneDelegate.swift */; };
+		AF3DC2362A90A405000D0E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC2342A90A405000D0E66 /* Main.storyboard */; };
+		AF3DC2382A90A407000D0E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC2372A90A407000D0E66 /* Assets.xcassets */; };
+		AF3DC23B2A90A407000D0E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC2392A90A407000D0E66 /* LaunchScreen.storyboard */; };
+		AF3DC2432A90A463000D0E66 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC2422A90A463000D0E66 /* Sign.swift */; };
+		AF3DC2472A90B1E5000D0E66 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC2462A90B1E5000D0E66 /* DetailTableViewCell.swift */; };
+		AF3DC2492A90B47D000D0E66 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC2482A90B47D000D0E66 /* SignViewController.swift */; };
+		AF3DC24F2A90D3A3000D0E66 /* ExplainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC24E2A90D3A3000D0E66 /* ExplainTableViewCell.swift */; };
+		AF3DC2512A90F640000D0E66 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DC2502A90F640000D0E66 /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3DC22B2A90A405000D0E66 /* Sensoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3DC22E2A90A405000D0E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3DC2302A90A405000D0E66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF3DC2352A90A405000D0E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF3DC2372A90A407000D0E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF3DC23A2A90A407000D0E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF3DC23C2A90A407000D0E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3DC2422A90A463000D0E66 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		AF3DC2462A90B1E5000D0E66 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		AF3DC2482A90B47D000D0E66 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		AF3DC24E2A90D3A3000D0E66 /* ExplainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainTableViewCell.swift; sourceTree = "<group>"; };
+		AF3DC2502A90F640000D0E66 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3DC2282A90A405000D0E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3DC2222A90A405000D0E66 = {
+			isa = PBXGroup;
+			children = (
+				AF3DC2502A90F640000D0E66 /* StartViewController.swift */,
+				AF3DC22D2A90A405000D0E66 /* Sensoji */,
+				AF3DC22C2A90A405000D0E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3DC22C2A90A405000D0E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3DC22B2A90A405000D0E66 /* Sensoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3DC22D2A90A405000D0E66 /* Sensoji */ = {
+			isa = PBXGroup;
+			children = (
+				AF3DC22E2A90A405000D0E66 /* AppDelegate.swift */,
+				AF3DC2302A90A405000D0E66 /* SceneDelegate.swift */,
+				AF3DC24A2A90B487000D0E66 /* Controller */,
+				AF3DC24B2A90B48E000D0E66 /* Model */,
+				AF3DC2392A90A407000D0E66 /* LaunchScreen.storyboard */,
+				AF3DC2342A90A405000D0E66 /* Main.storyboard */,
+				AF3DC2372A90A407000D0E66 /* Assets.xcassets */,
+				AF3DC23C2A90A407000D0E66 /* Info.plist */,
+			);
+			path = Sensoji;
+			sourceTree = "<group>";
+		};
+		AF3DC24A2A90B487000D0E66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3DC2482A90B47D000D0E66 /* SignViewController.swift */,
+				AF3DC24E2A90D3A3000D0E66 /* ExplainTableViewCell.swift */,
+				AF3DC2462A90B1E5000D0E66 /* DetailTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF3DC24B2A90B48E000D0E66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF3DC2422A90A463000D0E66 /* Sign.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3DC22A2A90A405000D0E66 /* Sensoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3DC23F2A90A407000D0E66 /* Build configuration list for PBXNativeTarget "Sensoji" */;
+			buildPhases = (
+				AF3DC2272A90A405000D0E66 /* Sources */,
+				AF3DC2282A90A405000D0E66 /* Frameworks */,
+				AF3DC2292A90A405000D0E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensoji;
+			productName = Sensoji;
+			productReference = AF3DC22B2A90A405000D0E66 /* Sensoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3DC2232A90A405000D0E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF3DC22A2A90A405000D0E66 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF3DC2262A90A405000D0E66 /* Build configuration list for PBXProject "Sensoji" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3DC2222A90A405000D0E66;
+			productRefGroup = AF3DC22C2A90A405000D0E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3DC22A2A90A405000D0E66 /* Sensoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3DC2292A90A405000D0E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3DC23B2A90A407000D0E66 /* LaunchScreen.storyboard in Resources */,
+				AF3DC2382A90A407000D0E66 /* Assets.xcassets in Resources */,
+				AF3DC2362A90A405000D0E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3DC2272A90A405000D0E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3DC2492A90B47D000D0E66 /* SignViewController.swift in Sources */,
+				AF3DC2512A90F640000D0E66 /* StartViewController.swift in Sources */,
+				AF3DC24F2A90D3A3000D0E66 /* ExplainTableViewCell.swift in Sources */,
+				AF3DC22F2A90A405000D0E66 /* AppDelegate.swift in Sources */,
+				AF3DC2432A90A463000D0E66 /* Sign.swift in Sources */,
+				AF3DC2472A90B1E5000D0E66 /* DetailTableViewCell.swift in Sources */,
+				AF3DC2312A90A405000D0E66 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF3DC2342A90A405000D0E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3DC2352A90A405000D0E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF3DC2392A90A407000D0E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3DC23A2A90A407000D0E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3DC23D2A90A407000D0E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3DC23E2A90A407000D0E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3DC2402A90A407000D0E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WM9U7Y583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sensoji/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pei.Sensoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3DC2412A90A407000D0E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WM9U7Y583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sensoji/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pei.Sensoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3DC2262A90A405000D0E66 /* Build configuration list for PBXProject "Sensoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3DC23D2A90A407000D0E66 /* Debug */,
+				AF3DC23E2A90A407000D0E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3DC23F2A90A407000D0E66 /* Build configuration list for PBXNativeTarget "Sensoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3DC2402A90A407000D0E66 /* Debug */,
+				AF3DC2412A90A407000D0E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3DC2232A90A405000D0E66 /* Project object */;
+}
