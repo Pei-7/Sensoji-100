@@ -50,6 +50,7 @@ class SignViewController: UIViewController, UITableViewDelegate, UITableViewData
             if signs.isEmpty == false {
                 
                 let keyArray = Array(signs[index].result.keys)
+                print(indexPath.row)
                 cell.detailKeyLabel.text = keyArray[indexPath.row-1]
                 
                 let valueArray = Array(signs[index].result.values)
